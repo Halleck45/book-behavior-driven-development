@@ -31,5 +31,3 @@ if ($interval->invert == 1) {
         echo ' Joyeux anniversaire !';
     }
 }
-
-echo PHP_EOL;
