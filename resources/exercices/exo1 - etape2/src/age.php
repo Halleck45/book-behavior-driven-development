@@ -22,7 +22,7 @@ if ($interval->invert == 1) {
 } else {
     //
     // age
-    echo sprintf('Vous avez %d ans. ', $interval->format('%y'));
+    echo sprintf('Vous avez %d ans.', $interval->format('%y'));
 
     //
     // Happy birthday !
