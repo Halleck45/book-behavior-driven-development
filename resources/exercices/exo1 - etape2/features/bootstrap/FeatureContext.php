@@ -53,7 +53,7 @@ class FeatureContext extends BehatContext
      */
     public function onMeRepond($response)
     {
-        if(false === strpos($this->output, $response)) {
+        if (false === strpos($this->output, $response)) {
             throw new Exception;
         }
     }
